@@ -1,0 +1,39 @@
+{
+    "name": "flarone/reflection",
+    "description": "Test any Private/Protected Methods/Properties of any class",
+    "type": "library",
+    "keywords": [
+        "PHP",
+        "Reflection",
+        "UnitTesting",
+        "Testing",
+        "Private Methods",
+        "Protected Methods",
+        "Private Properties",
+        "Protected Properties"
+    ],
+    "time": "2022-11-16",
+    "license": "MIT",
+    "require": {
+        "php": ">=5.4.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "~4.0"
+    },
+    "authors": [
+        {
+            "name": "Flarone",
+            "email": "info@flarone.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Flarone\\Reflection\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Tests\\": "Tests/"
+        }
+    }
+}
